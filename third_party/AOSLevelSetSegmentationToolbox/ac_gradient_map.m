@@ -66,7 +66,7 @@ end
 
 %% Work out the gradient of the smooth image. 
 G = cell(1, n_dims);
-[G{:}] = gradient(I); 
+[G{:}] = gradient(I); %% gradient function is not included in your functions
 
 %% Work out the squared gradient magnitue.
 M = zeros(size(I)); 
